@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: lightblue;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#bookTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#bookTable th, #bookTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#bookTable th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#listaDeLivros tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
